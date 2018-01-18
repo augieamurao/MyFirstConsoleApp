@@ -12,7 +12,7 @@ namespace MyFirstConsoleApp
         {
             //Console.WriteLine("Hello World");
 
-            Messenger msg = new Messenger("Hello Augie");
+            Messenger msg = new Messenger("Hello Augie again");
             msg.author = "Cindy";
 
             Console.WriteLine(msg.SayHello());
